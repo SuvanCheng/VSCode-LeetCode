@@ -26,15 +26,14 @@ void BubbleSort(int array[], int len)
     }
 }
 
-
 int main()
 {
-    int b[7]={5,2,3,7,1,6,4};
+    int b[7] = {5, 2, 3, 7, 1, 6, 4};
 
     BubbleSort(b, 7);
-    for(int i = 0; i < 7 ; ++i){
+    for (int i = 0; i < 7; ++i)
+    {
         cout << b[i] << " ";
     }
     cout << endl;
-
 }

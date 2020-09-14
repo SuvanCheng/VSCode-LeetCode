@@ -20,7 +20,7 @@ int main()
         b.push_back(x);
     }
 
-        for (int i = 0; i < b.size(); ++i)
+    for (int i = 0; i < b.size(); ++i)
     {
         i == 0 ? cout << b[i] : cout << " " << b[i];
     }
